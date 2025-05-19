@@ -4,9 +4,9 @@ import Topbar from './topbar'
 
 function MainLayout({ children }: { children: React.ReactNode }) {
   return (
-    <main className='flex h-screen '>
+    <main className='flex h-screen  '>
         <Sidebar></Sidebar>
-        <div>
+        <div className='flex-1 '>
             <Topbar></Topbar>
              {children}
         </div>
